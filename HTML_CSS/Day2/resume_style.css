@@ -1,0 +1,67 @@
+#contents {
+    text-align: left;
+    font-family: "Sunflower", sans-serif;
+    font-weight: bold;
+    margin: 20px;
+}
+.introduce {
+    font-size: xx-large;
+    padding: 30px;
+}        
+img {
+    width: 200px;
+    height: 200px;
+}
+
+ol {
+    list-style-type: lower-alpha; 
+}
+
+table, th, td {
+    border: 2px solid black;   
+}
+
+.box1 {
+    padding: 20px;
+    border: 2px solid ;
+    background-color: skyblue;
+    text-align: center;
+}
+
+.box2 {
+    border: 2px solid red;
+    padding: 20px;
+    background-color: yellowgreen;
+    text-align: center;
+}
+
+.box3 {
+    border: 2px solid yellow;
+    padding: 20px;
+    background-color: tomato;
+    text-align: center;
+
+}
+
+#github {
+        font-size: small;
+        color: blue;
+        text-decoration: none;
+}
+
+#github:hover {
+        text-decoration: underline;
+}
+
+.table {
+    border: 2px solid black;
+    padding: 1px;
+    background-color: rgb(212, 203, 159);
+    color: black;
+    text-align: center;
+    width: 500px;
+    margin-left: 40px;
+}
+th {
+    background-color: bisque;
+}
