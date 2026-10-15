@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자기소개서</title>
+
+    <!-- Bootstrap (내 CSS보다 먼저 불러오기) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!-- 내 CSS -->
+    <link rel="stylesheet" href="resume_style.css">
+
+    <!-- 글씨체 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap">
+
+    <!-- 아이콘 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- 네비게이션 바 -->
+    <nav id="navbar">
+        <!-- 로고 -->
+        <div id="navbar__logo">
+            <i class="fa-solid fa-user"></i>
+            <a href="#">장성은</a>
+        </div>
+
+        <!-- 메뉴 -->
+        <ul id="navbar__menu">
+            <li><a href="#intro">Intro</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#hobby">Hobby</a></li>
+            <li><a href="#keywords">Keywords</a></li>
+            <li><a href="#career">Career</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="contents">
+        <header id="intro">
+            <h1 class="box1">Self Introduction</h1>
+            <hr>
+            <div id="profile">
+                <img src="profile.jpg" alt="프로필사진">
+                <div>
+                    <p class="introduce">안녕하세요 장성은입니다.</p>
+                    <a href="https://github.com/jsejj87/oz_assignment" id="github">
+                        <i class="fa-brands fa-github"></i>GitHub내 Repository 바로가기
+                    </a>
+                    <ul>
+                        <li>이름: 장성은</li>
+                        <li>나이: 40</li>
+                        <li>출생년도: 1987년</li>
+                        <li>성별: 남자</li>
+                        <li>거주지: 서울</li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <h1 class="box2" id="skills">Skills</h1>
+            <hr>
+            <div id="skills__list">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">Python</span>
+                <span class="tag">SQL</span>
+                <span class="tag">TensorFlow</span>
+            </div>
+
+            <h1 class="box2" id="hobby">Hobby & Preference</h1>
+            <hr>
+            <ol>
+                <li>취미: 여행, 게임</li>
+                <li>좋아하는 음식: 한식</li>
+                <li>좋아하는 영화: 반지의제왕, 오디세이</li>
+                <li>좋아하는 책: 정의란 무엇인가</li>
+                <li>좋아하는 노래 장르: 락발라드</li>
+            </ol>
+
+            <h1 class="box2" id="keywords">My Keywords</h1>
+            <hr>
+            <div class="keyword-grid">
+                <div class="item">INFJ</div>
+                <div class="item">집요함</div>
+                <div class="item">망상가</div>
+                <div class="item">도전</div>
+                <div class="item">배려심</div>
+                <div class="item">성실함</div>
+            </div>
+
+            <h1 class="box2" id="career">Career & Work Experience</h1>
+            <hr>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>회사명</th>
+                        <th>직무</th>
+                        <th>기간</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>oo병원</td>
+                        <td>간호사</td>
+                        <td>2015~2016</td>
+                    </tr>
+                    <tr>
+                        <td>oo병원</td>
+                        <td>간호사</td>
+                        <td>2020~2023</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h1 class="box3" id="contact">Send Cover Letter</h1>
+            <hr>
+            <form>
+                <label for="email" class="form-label">담당자 이메일</label>
+                <input type="email" id="email" class="form-control" placeholder="email@example.com">
+                <label for="company" class="form-label">회사명</label>
+                <input type="text" id="company" class="form-control" placeholder="(주)Paper Company">
+                <button type="submit">이력서 전송하기</button>
+            </form>
+        </main>
+
+        <footer>Copyright &#169; 장성은</footer>
+    </div>
+
+    <!-- 맨 위로 버튼 -->
+    <a href="#" id="top-button">맨 위로</a>
+</body>
+
+</html>
